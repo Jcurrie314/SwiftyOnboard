@@ -63,7 +63,7 @@ open class SwiftyOnboardPage: UIView {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.leftAnchor.constraint(equalTo: margin.leftAnchor, constant: 30).isActive = true
         imageView.rightAnchor.constraint(equalTo: margin.rightAnchor, constant: -30).isActive = true
-        imageView.topAnchor.constraint(equalTo: margin.topAnchor, constant: 10).isActive = true
+        imageView.topAnchor.constraint(equalTo: margin.topAnchor, constant: 60).isActive = true
         imageView.heightAnchor.constraint(equalTo: margin.heightAnchor, multiplier: 0.5).isActive = true
         
         self.addSubview(title)
